@@ -1,0 +1,30 @@
+GAN based Data Augmentation
+
+The zip has the following files
+
+1. data_preprocessing_and_gan_training.ipynb: the python notebook that primarly cleans the raw data and trains the GAN saves them onto h5 files used for further generation for fake samples
+
+2. Modelling_with_scaling.ipynb: the python notebook that loads the files, performs the data augmentation using GANs, vanilla oversampling and using raw data, and finally use the classifiers
+
+The code files used the following libraries:
+
+a. pandas
+b. scikit-learn
+c. keras
+d. tensorflow
+e. matplotlib
+f. numpy
+g. collections
+h. math
+i. imblearn (some machines may need a lower version: we also used 0.8.0 for CSIF)
+
+3. creditcard.csv: The dataset file which is straight obtained from Kaggle
+
+4. final_discriminator.h5: the discriminator saved h5 file
+5. final_generator.h5: the generator saved h5 file (used for the fake sample generation)
+6. final_gan.h5: the entire gan file
+
+7. final_video.mp4: the video file which has our recordings
+
+8. In case PPT needs viewing:  
+https://docs.google.com/presentation/d/170Jthck_chzHP3SUBRAwQVWsmjk2f9B_BydXp9nve2g/edit?usp=sharing
